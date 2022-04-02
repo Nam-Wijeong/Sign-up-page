@@ -61,7 +61,6 @@ body {
 }
 
 .sign-up-info input {
-  display: inline-block;
   width: 60%;
   outline: none;
   border: 1px solid #ff8080;
