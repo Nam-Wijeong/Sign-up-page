@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign-up Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    hello
+    <header class="header">
+      <h1 class="logo">🦁HOW TO BE A LION🦁</h1>
+    </header>
+    <form action="" method="get" class="wrapper">
+      <h2 class="sign-up">Create New Account</h2>
+      <ul class="sign-up-info">
+        <li>
+          <label for="email">E-Mail</label>
+          <input id="email" type="email" />
+        </li>
+        <li>
+          <label for="password">Password</label>
+          <input id="password" type="password" />
+        </li>
+        <li>
+          <label for="name">Full Name</label>
+          <input id="name" type="text" />
+        </li>
+        <li>
+          <label for="birthdate">Birth Date</label>
+          <input id="birthdate" type="date" />
+        </li>
+        <li>
+          <label for="gender">Female / Male</label>
+          <input id="gender" type="radio" />F
+          <input id="gender" type="radio" />M
+        </li>
+        <li>
+          <label for="phone">Phone</label>
+          <input id="phone" type="tel" />
+        </li>
+      </ul>
+      <button class="sign-up-btn">
+        <a href="https://www.codelion.net/" target="_blank"> GO! </a>
+      </button>
+    </form>
   </body>
 </html>
