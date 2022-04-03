@@ -93,3 +93,33 @@ body {
   text-decoration: none;
   color: white;
 }
+
+@media screen and (max-width: 48rem) {
+  .header {
+    font-size: 27px;
+  }
+
+  .wrapper {
+    width: 60%;
+  }
+
+  .sign-up {
+    font-size: 23px;
+  }
+
+  .sign-up-info {
+    font-size: 14px;
+  }
+
+  .sign-up-info label {
+    width: 50px;
+  }
+
+  .sign-up-info input {
+    font-size: 14px;
+  }
+
+  .sign-up-btn {
+    font-size: 20px;
+  }
+}
